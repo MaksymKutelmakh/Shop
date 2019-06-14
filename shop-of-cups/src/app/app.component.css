@@ -1,0 +1,123 @@
+header {
+    background: url(../assets/img/Background.png);
+    background-size: cover;
+    background-position: center;
+    height: 890px;
+    /* width: 100%; */
+    padding: 63px;
+}
+
+#text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+#text h1 {
+    color: #ffffff;
+    font-size: 60px;
+    /* ! */
+}
+
+#text span {
+    color: #abbac8;
+    text-align: center;
+}
+
+.logo {
+    /* width: 50%; */
+}
+
+.menu {
+    /* width: 50%; */
+    /* align-content: flex-end; */
+}
+
+.menu a {
+    padding-right: 50px;
+}
+
+.menu a:hover {
+    color: #918363;
+    transition: 1s;
+    padding-right: 50px;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+nav a {
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+#aboutUs {
+    background: #aa9b77;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 711px;
+    height: 248px;
+    border: 2px solid #918363;
+    color: #424242;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #424242;
+    height: 350px;
+    width: 100%;
+    color: #ffffff;
+}
+
+.trekking {
+    width: 356px;
+    padding-left: 65px;
+}
+
+.trekking p {
+    font-size: 10px;
+}
+
+footer nav {
+    display: inline;
+    height: 30px;
+    width: 450px;
+    padding-right: 30px;
+}
+
+footer nav a {
+    padding-right: 7px;
+    padding-left: 15px;
+}
+
+footer nav a:hover {
+    color: #918363;
+    transition: 1s;
+    padding-right: 7px;
+    padding-left: 15px;
+}
+
+footer nav span {
+    padding-left: 15.5px;
+}

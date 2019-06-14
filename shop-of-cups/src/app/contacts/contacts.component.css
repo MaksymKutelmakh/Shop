@@ -1,0 +1,174 @@
+.contacts_block {
+    padding: 0 39px;
+    background: #f5f6f7;
+}
+
+.contacts_left h3 {
+    font-size: 22px!important;
+    font-family: "Arial";
+    font-weight: 400;
+    color: #3e3e3e;
+    height: 17px;
+    margin: 23px 0 30px!important;
+}
+
+left,
+.left {
+    float: left !important;
+}
+
+.contacts_left {
+    display: inline-block;
+    padding-top: 20px;
+}
+
+table {
+    margin-bottom: 1em;
+}
+
+.contacts_left table {
+    width: 100%;
+}
+
+.contacts_left table tbody tr td {
+    font-size: 13px;
+    height: 25px;
+}
+
+.contacts_form {
+    padding-bottom: 50px;
+    display: inline-block;
+    margin: 0 0 0 78px;
+}
+
+#feedback_widget {
+    background: none repeat scroll 0 0 #fff !important;
+    border: 1px solid #dadada;
+    border-radius: 3px;
+    box-shadow: 0 0 7px #c5c5c5;
+    color: #595959;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.15px;
+    width: 496px;
+    z-index: 100;
+    box-sizing: border-box;
+    min-height: 422px;
+    margin-top: 30px;
+    margin-left: 130px;
+}
+
+.feedback_message {
+    display: flex;
+}
+
+#feedback_form .feedback-form-wrapper .container>div,
+.form_title,
+.feedback-form-wrapper>p {
+    min-height: 30px;
+    margin-top: 28px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#feedback_form label {
+    display: inline-block;
+    width: 177px;
+    vertical-align: sub;
+    font-weight: bold;
+}
+
+#feedback_form input {
+    float: right;
+    width: 244px;
+    height: 26px;
+    border: #dadada 1px solid;
+    padding-left: 5px;
+}
+
+.feedback-clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#feedback_form .feedback-form-wrapper .container>div.phone_email {
+    position: relative;
+}
+
+#feedback_form label[for='phone_email'] {
+    width: 90px;
+}
+
+#feedback_form input[name='email_value'] {
+    float: right;
+    margin-top: -1px;
+}
+
+#feedback_form .phone_email .fireselect-container {
+    margin-left: 0;
+    display: block;
+    position: absolute !important;
+    top: 0;
+    right: 165px;
+    width: 85px;
+    height: 26px;
+    padding: 0;
+    background: url(https://i.allo.ua/skin/frontend/enterprise/allov2/css/images/delivery-popup.png) #f2f2f2 no-repeat right;
+}
+
+div.feedback_message {
+    height: 77px;
+    margin-top: 20px !important;
+}
+
+.form_title {
+    font-size: 22px!important;
+    font-family: "Arial";
+    font-weight: 400;
+    color: #3e3e3e;
+    height: 17px;
+    /* margin: 23px 0 30px!important; */
+}
+
+textarea {
+    overflow: auto;
+    border: 1px solid #dadada;
+    width: 357px;
+}
+
+input.input-text,
+textarea {
+    padding: 2px 2px;
+}
+
+#feedback_form button {
+    float: right;
+    width: 250px;
+    height: 28px;
+}
+
+button.button.red,
+a.button.red {
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: .3em;
+    -moz-border-radius: .3em;
+    -webkit-border-radius: .3em;
+    background: #918363;
+}
+
+button.button {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background: 0 0;
+    overflow: visible;
+    cursor: pointer;
+    vertical-align: middle;
+}

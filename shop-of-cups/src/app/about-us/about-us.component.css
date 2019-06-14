@@ -1,0 +1,98 @@
+#about-us {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#head-of-about {
+    display: flex;
+    padding-left: 50px;
+    color: #424242;
+    background: #f5f6f7;
+    height: 100%;
+}
+
+#head-of-about div h1 {
+    color: #aa9b77;
+}
+
+#head-of-about div div {
+    padding-bottom: 20px;
+}
+
+#count-of-our-partner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+#definition-of-shop {
+    font-size: 25px;
+}
+
+#our-mission {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background: #aa9b77;
+    color: #424242;
+    height: 180px;
+    padding-left: 50px;
+}
+
+#our-mission h2 {
+    margin-top: 45px;
+}
+
+#our-statistics {
+    display: flex;
+    align-items: flex-start;
+    padding-left: 50px;
+    height: 450px;
+}
+
+#statistics-for-year {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#statistics-for-every-mounth {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#statistics-for-every-mounth img {
+    padding-top: 60px;
+}
+
+#about-our-command {
+    background: #f5f6f7;
+    /* padding-left: 50px; */
+    height: 100%;
+    padding-top: 20px;
+}
+
+#about-our-command h2,
+p {
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+#photo-of-our-command img {
+    width: 100%;
+}
+
+#our-company-in-world {
+    background: #f5f6f7;
+    height: 100%;
+    padding: 40px 40px 60px 50px;
+}
+
+#our-partner {
+    display: table-cell;
+}

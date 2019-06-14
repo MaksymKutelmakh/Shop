@@ -1,0 +1,39 @@
+<a name="products"></a>
+<div id="content">
+    <div id="filter">
+        <div>
+            <input type="checkbox" [(ngModel)]="isMen" name="men" id="men">
+            <label for="men">MEN</label>
+            <input type="checkbox" [(ngModel)]="isWomen" id="women">
+            <label for="women">WOMEN</label>
+            <input type="checkbox" [(ngModel)]="isChild" id="children">
+            <label for="children">CHILDREN</label>
+        </div>
+        <div>
+            <button class="button" (click)='seeAllProducts()'>SEE ALL PRODUCTS</button>
+        </div>
+    </div>
+
+</div>
+
+<div id="list">
+    <div *ngFor="let item of products | forProducts: isMen : isWomen: isChild : isAll | paginate: { itemsPerPage: 12, currentPage: p   }" class="items" (click)="showProduct(item._id)">
+        <div id="photo-of-products">
+            <img src='http:\\localhost:4000\{{item.productImage}}' alt="" (click)="showProduct(item._id)">
+        </div>
+        <div id="info-of-products">
+            <div id="name-of-products" (click)="showProduct(item._id)">
+                {{item.name}}
+            </div>
+            <div id="buy-products">
+                <i class="fas fa-shopping-cart"></i>
+            </div>
+            <div id="price-of-products">
+                {{item.price}}$
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<pagination-controls (pageChange)="p = $event"></pagination-controls>

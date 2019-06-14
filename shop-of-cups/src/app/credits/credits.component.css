@@ -1,0 +1,125 @@
+.c-cols-r-static {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.h1,
+h1 {
+    margin-bottom: .325em;
+    font-size: 40px;
+    line-height: 1.2em;
+}
+
+.h2,
+h2 {
+    margin-bottom: .58333em;
+    font-size: 24px;
+    line-height: 1.29167em;
+}
+
+.credit-subtitle {
+    margin-bottom: 1em;
+    padding: 0;
+}
+
+.credit-rules-list-i:before {
+    content: '';
+    position: absolute;
+    width: 13px;
+    height: 22px;
+    background: url(https://i1.rozetka.ua/pages/417/417969.png) no-repeat center;
+    top: 55px;
+    right: 0;
+}
+
+.credit-rules-list-i:last-child:before {
+    display: none;
+}
+
+.credit-rules {
+    background: #fff;
+    border-radius: 4px;
+    margin: 25px 0;
+}
+
+.credit-rules-list {
+    text-align: center;
+    padding: 25px;
+}
+
+.credit-rules-list-i {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    width: 24%;
+}
+
+.credit-rules-image img {
+    width: 100%;
+    max-width: 110px;
+}
+
+.credit-rules-title {
+    font-size: 14px;
+}
+
+.credit-rules-title span {
+    font-weight: bold;
+}
+
+.credit-rules-image {
+    margin-bottom: 15px;
+}
+
+.rz-credit-block {
+    margin-bottom: 40px;
+}
+
+.credit-subtitle {
+    margin-bottom: 1em;
+    padding: 0;
+}
+
+.rz-credit-terms-table {
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.rz-credit-terms-tr-heading {
+    color: #999;
+    background: #f8f8f8;
+}
+
+.rz-credit-terms-tr-heading .rz-credit-terms-td {
+    vertical-align: bottom;
+    font-size: 12px;
+    border-top: 1px solid #eaeaea;
+    border-bottom: 2px solid #eaeaea;
+}
+
+.rz-credit-terms-td {
+    vertical-align: middle;
+    border-bottom: 1px solid #eaeaea;
+    padding: 12px;
+    font-size: 13px;
+}
+
+.rz-credit-text {
+    font-size: 12px;
+    line-height: normal;
+    color: #999;
+    margin: 20px 0;
+}
+
+.rz-credit-bank-i {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.rz-credit-bank-i span {
+    font-weight: bold;
+}

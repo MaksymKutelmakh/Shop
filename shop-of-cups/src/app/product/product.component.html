@@ -1,0 +1,65 @@
+<a name='product'></a>
+<div id="main-block-choose-product">
+    <div id="help-block">
+        <div id="head-of-main-block">
+            <div id="photo-of-product">
+                <img src='http:\\localhost:4000\{{product.productImage}}'>
+            </div>
+            <div id="action-with-product">
+                <div id="name-of-product">
+                    {{product.name}}
+                </div>
+                <div id="status-of-product">
+                    {{product.status}}
+                </div>
+                <div id="price-of-product">
+                    {{product.price}}$
+                </div>
+                <div id="action-buttons">
+                    <div id="buy-button">
+                        <input type="submit" value="Buy">
+                    </div>
+                    <div id="feed-back-button">
+                        <input type="submit" value="Feed back">
+                    </div>
+                </div>
+                <div id="cart">
+                    <i class="fas fa-shopping-cart"> Add to cart</i>
+                </div>
+            </div>
+        </div>
+        <div id="body-of-product">
+            <div id="characteristic-of-product">
+                <h1>Characteristic</h1>
+                <div id="parameters-of-product">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>Sex</td>
+                                <td style="text-align: right;">{{product.sex}}</td>
+                            </tr>
+                            <tr>
+                                <td>Height</td>
+                                <td style="text-align: right;">{{product.height}}mm</td>
+                            </tr>
+                            <tr>
+                                <td>Width</td>
+                                <td style="text-align: right;">{{product.width}}</td>
+                            </tr>
+                            <tr>
+                                <td>Status</td>
+                                <td style="text-align: right;">{{product.status}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div id="description-of-product">
+                <h1>Description</h1>
+                <div id="description">
+                    {{product.description}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

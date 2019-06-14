@@ -1,0 +1,52 @@
+<header>
+
+    <nav>
+        <div class="logo">
+            <img src="../assets/img/Logo.png" alt="Logo" width='53px' height="40px">
+        </div>
+
+        <div class="menu">
+            <a routerLink="/">Home</a>
+            <a routerLink="/products" href="#products" (click)="jumpto('products')">Products</a>
+            <a routerLink="/about-us" href="#about-us" (click)="jumpto('about-us')">About us</a>
+            <a routerLink="/sign_in" href="#sign-in" (click)="jumpto('sign-in')">Sign in</a>
+            <img src="../assets/img/fa-shopping-cart.png" alt="cart" height="20px" width="24">
+        </div>
+    </nav>
+
+    <div id="text">
+        <h1>
+            Our clothing , your comfort
+        </h1>
+        <span>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Magni, a officiis quo eum dolores fuga <br>explicabo laborum nihil.
+    </span>
+    </div>
+
+</header>
+
+
+<router-outlet></router-outlet>
+
+<div id="aboutUs">
+    <div id="info">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Officia a, dolor nostrum unde dolorem iure eius iste? <br>Reiciendis quaerat impedit rerum, tempore repudiandae <br>officia, amet consequatur maiores quod quos <br>consectetur.
+    </div>
+</div>
+<a style='position: fixed; bottom: 25px; right: 6px; cursor:pointer; ' (click)='jumpto("top")' id='Go_Top'>
+    Вверх
+   </a>
+<footer>
+    <div class="trekking">
+        <h2>Trekking</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia exercitationem eum assumenda iste iusto. Corporis reprehenderit nobis ea excepturi. Dolor quibusdam maiores quis aspernatur numquam laborum distinctio minus cupiditate beatae!</p>
+    </div>
+    <nav>
+        <a routerLink="/credits" href="#credits" (click)="jumpto('credits')">Credits</a> |
+        <a routerLink="/privacy" href="#privacy" (click)="jumpto('privacy')">Privacy</a> |
+        <a routerLink="/about-us" href="#about-us" (click)="jumpto('about-us')">About us</a> |
+        <a routerLink="/contacts" href="#contacts" (click)="jumpto('contacts')">Contacts</a> <br>
+        <br><span>Design by Max Kutelmakh</span>
+    </nav>
+
+</footer>

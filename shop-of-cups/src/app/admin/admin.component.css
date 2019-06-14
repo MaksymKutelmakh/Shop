@@ -1,0 +1,22 @@
+table {
+    width: 100%;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.mat-column-right {
+    text-align: center;
+}
+
+.pag {
+    float: right;
+    width: 70%;
+}
+
+button {
+    margin-bottom: 10px;
+}
+
+.stuff-description {
+    width: 300px;
+}

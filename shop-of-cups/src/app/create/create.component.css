@@ -1,0 +1,121 @@
+.create-form {
+    min-width: 50px;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-left: 10px;
+}
+
+#main-block-for-form {
+    background: white;
+}
+
+.ui-form {
+    max-width: 350px;
+    padding: 80px 30px 30px;
+    margin: 50px auto 30px;
+    background: #f5f6f7;
+    height: 100%;
+    width: 310px;
+}
+
+.ui-form h3 {
+    position: relative;
+    z-index: 5;
+    margin: 0 0 60px;
+    text-align: center;
+    color: #918363;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.form-row {
+    position: relative;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.form-row input,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 0 10px;
+    line-height: 40px;
+    font-family: 'Roboto', sans-serif;
+    background: none;
+    border-width: 0;
+    border-bottom: 2px solid #918363;
+    transition: all 0.2s ease;
+}
+
+.form-row p {
+    color: #918363;
+    font-size: 13px;
+}
+
+.form-row label,
+textarea {
+    position: absolute;
+    left: 13px;
+    color: #9d959d;
+    font-size: 20px;
+    font-weight: 300;
+    transform: translateY(-35px);
+    transition: all 0.2s ease;
+    top: 35px;
+}
+
+.form-row input:focus,
+textarea:focus {
+    outline: 0;
+    border-color: #F77A52;
+}
+
+.file {
+    margin-bottom: 40px;
+    margin-left: 6px;
+    margin-top: 100px;
+}
+
+textarea {
+    height: 45px;
+}
+
+.form-row input:focus+label,
+.form-row input:valid+label,
+.form-row textarea:focus+label,
+.form-row textarea:valid+label {
+    transform: translateY(-60px);
+    margin-left: -14px;
+    font-size: 14px;
+    font-weight: 400;
+    outline: 0;
+    border-color: #F77A52;
+    color: #F77A52;
+}
+
+.create-form input[type="submit"] {
+    width: 100px;
+    margin: 5px;
+    margin-bottom: 30px;
+    line-height: 42px;
+    background: #918363;
+    border-width: 0;
+    color: white;
+    font-size: 20px;
+}
+
+.create-form p {
+    margin: 0;
+    padding-top: 10px;
+}

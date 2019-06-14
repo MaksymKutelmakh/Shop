@@ -1,0 +1,18 @@
+<a name="sign-in"></a>
+<div id="block-of-sign-in">
+
+    <form class="ui-form">
+        <h3>Sign in</h3>
+        <div class="form-row">
+            <input type="text" id="email" required autocomplete="off"><label for="email">Email</label>
+        </div>
+        <div class="form-row">
+            <input type="password" id="password" required autocomplete="off"><label for="password">Password</label>
+        </div>
+        <p><input type="submit" value="Sign in"></p>
+        <div>
+            <a routerLink="/sign_up" href="#sign-up" (click)="jumpto('sign-up')">Sign up</a>
+        </div>
+    </form>
+
+</div>
